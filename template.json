@@ -1,0 +1,18 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.0",
+      "@testing-library/react": "^10.4.6",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react-hooks": "^4.0.8"
+    },
+    "scripts": {
+      "test": "react-scripts test --env=jsdom-fourteen",
+      "test:watch": "react-scripts test --env=jsdom-fourteen --watch"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "plugin:react-hooks/recommended", "plugin:jsx-a11y/recommended"],
+      "plugins": ["jsx-a11y", "react-hooks"]
+    }
+  }
+}
