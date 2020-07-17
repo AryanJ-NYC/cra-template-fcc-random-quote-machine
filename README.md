@@ -17,7 +17,7 @@ However, I think there is a better way to approach these projects rather than su
 or
 
 ```bash
-y create react-app random-quote-machine --template cra-template-fcc-random-quote-machine
+yarn create react-app random-quote-machine --template cra-template-fcc-random-quote-machine
 ```
 
 ## Contribute
