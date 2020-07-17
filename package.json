@@ -1,6 +1,7 @@
 {
   "name": "cra-template-fcc-random-quote-machine",
   "version": "0.1.0",
+  "license": "MIT",
   "main": "template.json",
   "dependencies": {
     "react": "^16.13.1",
